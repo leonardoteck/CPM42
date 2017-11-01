@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "641375641307",
+    "project_id": "cpm42-175223"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641375641307:android:dff7e4c7ddc05fb4",
+        "android_client_info": {
+          "package_name": "com.monteolimpo.cpm42"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641375641307-2i64cvdtme5rshbelulcn52667701tbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.monteolimpo.cpm42",
+            "certificate_hash": "78b4af3270dff5145d72222a9c1f0331a407ed58"
+          }
+        },
+        {
+          "client_id": "641375641307-rcps29q38f8k9k19u7sribgt66c9n3l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX5qJyuKawPh0Q5gl_Py2KZLdaCMWVK_k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

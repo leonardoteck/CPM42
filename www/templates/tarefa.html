@@ -1,0 +1,18 @@
+<div>
+    <div class="list">
+        <label class="item item-input item-floating-label">
+            <span class="input-label">Nome da tarefa</span>
+            <input type="text" placeholder="Nome da tarefa" ng-model="vm.tarefa.nome">
+        </label>
+        <label class="item item-input item-floating-label">
+            <span class="input-label">Duração (dias)</span>
+            <input type="number" placeholder="Duração (dias)" ng-model="vm.tarefa.dias">
+        </label>
+        <label class="item" style="background-color: transparent" ng-show="(vm.tarefa.id && vm.dados.length - 1 > 0) || vm.dados.length">
+            <span class="input-label">Tarefas precedentes</span>
+            <ion-list>
+                <ion-checkbox ng-model="vm.tarefa.precedentes[$index]" ng-repeat="tarefa in vm.dados" ng-show="vm.filtrarPrecedentes(tarefa)">{{tarefa.nome}}</ion-checkbox>
+            </ion-list>
+        </label>
+    </div>
+</div>

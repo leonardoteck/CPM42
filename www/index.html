@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>CPM42</title>
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+
+    <!-- social login requirements -->
+    <script async src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> <!-- why?! -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- global exception handler -->
+    <!-- <script src="js/services/exceptionHandling.js"></script> -->
+
+    <!-- data services -->
+    <script src="lib/localforage.min.js"></script>
+    <script src="js/services/localEntities.js"></script>
+
+    <!-- modules & services -->
+    <script src="js/modules.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/services/utilitiesServices.js"></script>
+    
+    <!-- controllers -->
+    <script src="js/controllers.js"></script> <!-- TODO: excluir assim que possível -->
+    <script src="js/controllers/homeCtrl.js"></script>
+</head>
+
+<body ng-app="starter">
+    <ion-nav-view></ion-nav-view>
+</body>
+
+</html>
